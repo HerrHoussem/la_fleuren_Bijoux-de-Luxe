@@ -1,0 +1,89 @@
+<div
+  style="
+    font-family: system-ui, sans-serif, Arial;
+    font-size: 14px;
+    color: #333;
+    padding: 14px 8px;
+    background-color: #f5f5f5;
+  "
+>
+  <div style="max-width: 600px; margin: auto; background-color: #fff">
+    <div style="border-top: 6px solid #e75480; padding: 16px; text-align: center;">
+      <img
+        style="height: 40px; margin: 0 auto 10px;"
+        height="40px"
+        src="https://herrhoussem.github.io/la_fleuren_Bijoux-de-Luxe/assets/logo-large.png"
+        alt="La_Fleuren"
+      />
+      <div style="font-size: 18px;"><strong>شكرًا لطلبكِ! / Merci pour votre commande ! ✿</strong></div>
+    </div>
+
+    <!-- ===== Arabic ===== -->
+    <div dir="rtl" style="padding: 20px 24px 8px; text-align: right;">
+      <p>مرحبًا {{customer_name}}،</p>
+      <p>لقد استلمنا طلبكِ بنجاح، وسنتواصل معكِ قريبًا عبر الهاتف أو واتساب لتأكيد التوصيل.</p>
+
+      <div style="text-align: center; padding: 10px; margin: 16px 0; background: #fdf1f5; border-radius: 8px;">
+        <strong>رقم الطلب: {{order_number}}</strong>
+      </div>
+
+      <div style="padding-bottom: 8px;"><strong>ملخص طلبكِ</strong></div>
+      <div style="white-space: pre-line; border: 1px solid #ece1e6; border-radius: 8px; padding: 12px 14px; line-height: 1.7;">{{items_summary}}</div>
+
+      <table style="border-collapse: collapse; width: 100%; text-align: right; margin-top: 14px;">
+        <tr>
+          <td style="border-top: 2px solid #333; padding: 10px 4px 4px;"><strong>المجموع الكلي</strong></td>
+          <td style="padding: 10px 4px 4px; border-top: 2px solid #333;"><strong>{{subtotal}}</strong></td>
+        </tr>
+      </table>
+
+      <div style="margin-top: 16px; padding: 12px 14px; background: #fdf1f5; border-radius: 8px;">
+        <div style="color: #888; font-size: 12px;">عنوان التوصيل</div>
+        <div style="margin-top: 4px;">{{address}}</div>
+      </div>
+
+      <p style="margin-top: 18px; color: #666;">
+        هل لديكِ سؤال بخصوص طلبكِ؟ راسلينا في أي وقت عبر واتساب:
+        <a href="https://wa.me/213552692249" style="color: #d1517c; font-weight: bold; text-decoration: none;">+213 552 69 22 49</a>
+      </p>
+    </div>
+
+    <div style="padding: 4px 24px;"><div style="border-top: 1px dashed #ccc;"></div></div>
+
+    <!-- ===== Français ===== -->
+    <div dir="ltr" style="padding: 8px 24px 20px; text-align: left;">
+      <p>Bonjour {{customer_name}},</p>
+      <p>Nous avons bien reçu votre commande. Nous vous contacterons très prochainement par téléphone ou WhatsApp pour confirmer la livraison.</p>
+
+      <div style="text-align: center; padding: 10px; margin: 16px 0; background: #fdf1f5; border-radius: 8px;">
+        <strong>Numéro de commande : {{order_number}}</strong>
+      </div>
+
+      <div style="padding-bottom: 8px;"><strong>Résumé de votre commande</strong></div>
+      <div style="white-space: pre-line; border: 1px solid #ece1e6; border-radius: 8px; padding: 12px 14px; line-height: 1.7;">{{items_summary}}</div>
+
+      <table style="border-collapse: collapse; width: 100%; text-align: left; margin-top: 14px;">
+        <tr>
+          <td style="border-top: 2px solid #333; padding: 10px 4px 4px;"><strong>Total</strong></td>
+          <td style="padding: 10px 4px 4px; border-top: 2px solid #333;"><strong>{{subtotal}}</strong></td>
+        </tr>
+      </table>
+
+      <div style="margin-top: 16px; padding: 12px 14px; background: #fdf1f5; border-radius: 8px;">
+        <div style="color: #888; font-size: 12px;">Adresse de livraison</div>
+        <div style="margin-top: 4px;">{{address}}</div>
+      </div>
+
+      <p style="margin-top: 18px; color: #666;">
+        Une question sur votre commande ? Contactez-nous à tout moment sur WhatsApp :
+        <a href="https://wa.me/213552692249" style="color: #d1517c; font-weight: bold; text-decoration: none;">+213 552 69 22 49</a>
+      </p>
+    </div>
+  </div>
+
+  <div style="max-width: 600px; margin: auto; text-align: center;">
+    <p style="color: #999; font-size: 12px; margin-top: 12px;">
+      شكرًا لثقتكِ في La_Fleuren / Merci de votre confiance envers La_Fleuren ✿
+    </p>
+  </div>
+</div>
